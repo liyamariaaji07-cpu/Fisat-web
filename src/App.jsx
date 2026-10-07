@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import Preloader from './components/Preloader';
 import CustomCursor from './components/CustomCursor';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import IdentityStory from './components/IdentityStory';
 import InteractiveCampus from './components/InteractiveCampus';
 import AcademicsUniverse from './components/AcademicsUniverse';
+import LeadershipFaculty from './components/LeadershipFaculty';
 import LifeAtFisat from './components/LifeAtFisat';
 import EventsTimeline from './components/EventsTimeline';
 import HallOfFame from './components/HallOfFame';
@@ -13,15 +15,20 @@ import InnovationHub from './components/InnovationHub';
 import CampusTour from './components/CampusTour';
 import AdmissionsCalculator from './components/AdmissionsCalculator';
 import SearchModal from './components/SearchModal';
+import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
 export default function App() {
+  const [preloaderDone, setPreloaderDone] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [admissionsOpen, setAdmissionsOpen] = useState(false);
   const [campusTourModalOpen, setCampusTourModalOpen] = useState(false);
 
   return (
     <div className="relative min-h-screen bg-[#050B14] text-slate-100 selection:bg-cyan-400 selection:text-slate-950">
+      {/* Cinematic Preloader */}
+      <Preloader onComplete={() => setPreloaderDone(true)} />
+
       {/* Custom Precision Follower Cursor */}
       <CustomCursor />
 
@@ -48,8 +55,12 @@ export default function App() {
         {/* Section 6: Academics / Department Universe */}
         <AcademicsUniverse />
 
+        {/* Section: Institutional Leadership & Eminent Faculty */}
+        <LeadershipFaculty />
+
         {/* Section 7: “MORE THAN A CLASSROOM” Student Life Collage */}
         <LifeAtFisat />
+
 
         {/* Section 8: Events Experience & Timeline */}
         <EventsTimeline />

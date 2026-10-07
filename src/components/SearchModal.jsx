@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, X, ArrowRight, CornerDownLeft, Sparkles, Building, Calendar, Trophy, BookOpen } from 'lucide-react';
-import { DEPARTMENTS, EVENTS_DATA, HALL_OF_FAME, CAMPUS_LOCATIONS } from '../data/fisatData';
+import { Search, X, ArrowRight, CornerDownLeft, Sparkles, Building, Calendar, Trophy, BookOpen, Users } from 'lucide-react';
+import { DEPARTMENTS, EVENTS_DATA, HALL_OF_FAME, CAMPUS_LOCATIONS, LEADERSHIP_FACULTY } from '../data/fisatData';
+
 import { soundFX } from '../utils/sound';
 
 export default function SearchModal({ isOpen, onClose }) {
@@ -52,6 +53,13 @@ export default function SearchModal({ isOpen, onClose }) {
       subtitle: l.zone,
       anchor: '#campus-life',
       icon: <Building size={16} className="text-emerald-400" />
+    })),
+    ...LEADERSHIP_FACULTY.map(f => ({
+      type: 'Faculty & Leadership',
+      title: `${f.name} — ${f.role}`,
+      subtitle: f.subtitle,
+      anchor: '#leadership',
+      icon: <Users size={16} className="text-purple-400" />
     }))
   ];
 

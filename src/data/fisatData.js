@@ -541,3 +541,135 @@ export const SCHOLARSHIP_TIERS = [
     color: "from-emerald-500 to-teal-600"
   }
 ];
+
+export const LEADERSHIP_FACULTY = [
+  {
+    id: "chairman",
+    name: "Mr. Shimith P. R.",
+    role: "Chairman, Governing Body, FISAT",
+    subtitle: "Secretary, FBOAES · Trustee, Fedbank Hormis Memorial Foundation",
+    badge: "GOVERNANCE & TRUST",
+    initials: "SR",
+    color: "#F59E0B",
+    degrees: [
+      "Secretary, Federal Bank Officers' Association Educational Society (FBOAES)",
+      "Former General Secretary, Federal Bank Officers' Association (FBOA)",
+      "Senior Banking Administrator & Institutional Trustee"
+    ],
+    experience: "30+ Years Banking & Institutional Governance",
+    achievements: [
+      "Steering FISAT into its autonomous era under UGC and APJ Abdul Kalam Technological University (KTU).",
+      "Pioneered the expansion of campus infrastructure, the AICTE IDEA Lab grant, and industry-sponsored research facilities.",
+      "Champions the ₹12 Crore+ scholarship corpus and student support programs through the FBOAES Trust.",
+      "Executive trustee driving the values of K.P. Hormis, visionary founder of Federal Bank."
+    ]
+  },
+  {
+    id: "principal",
+    name: "Dr. Jacob Thomas V",
+    role: "Principal, FISAT",
+    subtitle: "Executive Academic Head & Professor of Biomedical Engineering",
+    badge: "EXECUTIVE HEAD",
+    initials: "JT",
+    color: "#00F2FE",
+    degrees: [
+      "Ph.D. in Biomedical Engineering (IIT Madras, 2005)",
+      "M.Tech. in Biomedical Engineering (IIT Madras, 1993)",
+      "B.Tech. in Electronics Engineering (NIT Surat / SVNIT, 1988)",
+      "International Level 5 Certificate in Management & Leadership (QCF)"
+    ],
+    experience: "36+ Years Engineering Education & Research Leadership",
+    achievements: [
+      "Extensive leadership tenure across premier engineering institutions under IHRD, Govt. of Kerala (Principal, Professor).",
+      "Pioneer researcher in biomechanics of diabetic neuropathy foot pressure stress parameters, published in leading SCI indexed journals.",
+      "Principal investigator on funded medical electronics telemetry and assistive robotics devices.",
+      "Orchestrated curriculum autonomy, NBA tier accreditation standards, and NAAC 'A+' quality framework at FISAT."
+    ]
+  },
+  {
+    id: "vice-principal",
+    name: "Dr. Mini P. R.",
+    role: "Vice Principal, FISAT",
+    subtitle: "Professor of Electronics & Communication Engineering",
+    badge: "ACADEMIC LEADERSHIP",
+    initials: "MP",
+    color: "#38BDF8",
+    degrees: [
+      "Ph.D. in Digital Beamforming (Cochin University of Science and Technology - CUSAT, 2018)",
+      "M.Tech. in Digital Systems & Communication Engineering (NIT Calicut, 2008)",
+      "B.Tech. in Electronics and Communication Engineering (GCT Coimbatore, Bharathiar University, 1991)"
+    ],
+    experience: "30+ Years Teaching & Administrative Excellence",
+    achievements: [
+      "Foundational faculty member of FISAT since its inception in 2002; established the Department of ECE.",
+      "Served as Head of the Department (HoD) of ECE for over 17 years (2002–2006, 2008–2021).",
+      "Former Dean (Academic Affairs) and institutional IQAC Coordinator leading national accreditation audits.",
+      "Specialist in antenna arrays, digital beamforming, and signal processing; Lifetime Member of ISTE."
+    ]
+  },
+  {
+    id: "dean-rd",
+    name: "Dr. C. Sheela",
+    role: "Director of Research & Development (R&D)",
+    subtitle: "Senior Professor, Science & Humanities · Former Vice Principal",
+    badge: "RESEARCH & DEVELOPMENT",
+    initials: "CS",
+    color: "#10B981",
+    degrees: [
+      "Ph.D. in Mathematics / Applied Sciences",
+      "M.Sc. & B.Sc. in Mathematics",
+      "Senior Professor of Applied Sciences"
+    ],
+    experience: "32+ Years Academic & Institutional Leadership",
+    achievements: [
+      "Former Vice Principal of FISAT; long-standing pillars of institutional quality and faculty development.",
+      "Director of the FISAT Center for Research (FCR), overseeing multi-departmental doctoral research scholars.",
+      "Chair of the College Research Committee (CRC), evaluating patent disclosures and research grants.",
+      "Authored extensive research papers in applied mathematical modeling, graph theory, and computational methods."
+    ]
+  },
+  {
+    id: "hod-cse",
+    name: "Dr. Prasad J. C.",
+    role: "Professor, Computer Science & Engineering",
+    subtitle: "Former Head of Department (CSE) · Associate NCC Officer (Lieutenant)",
+    badge: "TECH & DEFENSE LEAD",
+    initials: "PJ",
+    color: "#8B5CF6",
+    degrees: [
+      "Ph.D. in Computer Science and Engineering (Dr. M.G.R. Educational & Research Institute, 2012)",
+      "M.Tech. in Computer Science and Engineering (2006)",
+      "MCA - Master of Computer Applications (Bharathiar University, 2001)",
+      "B.Sc. in Mathematics (Calicut University, 1998)"
+    ],
+    experience: "24+ Years Academia & Software Engineering",
+    achievements: [
+      "Served 15 years as Head of the Department of Computer Science & Engineering at FISAT (2006–2021).",
+      "Commissioned Associate NCC Officer (ANO) holding the rank of Lieutenant for the 22 Kerala Battalion Unit.",
+      "Nodal Officer for the Ministry of Human Resource Development (MHRD) for 10 years.",
+      "Founder and mentor of FISAT Consultancy Services (FCS) and student open-source software projects."
+    ]
+  },
+  {
+    id: "prof-me",
+    name: "Dr. Manoj George",
+    role: "Senior Professor, Mechanical Engineering",
+    subtitle: "Former Principal, FISAT · Specialist in Production Engineering",
+    badge: "ENGINEERING MENTOR",
+    initials: "MG",
+    color: "#EC4899",
+    degrees: [
+      "Ph.D. in Mechanical Engineering (Cochin University of Science and Technology - CUSAT, 2017)",
+      "M.Tech. in Mechanical Engineering - Production Engineering (CUSAT, 2007)",
+      "B.Tech. in Mechanical Engineering (NSS Engineering College Palakkad, Calicut University, 1991)"
+    ],
+    experience: "28+ Years Engineering Education & Administration",
+    achievements: [
+      "Former Principal of FISAT, guiding academic programs through national NBA and NAAC accreditation cycles.",
+      "Renowned researcher in advanced manufacturing, friction stir processing, and composite material characterization.",
+      "Extensive publications in peer-reviewed international engineering journals and conference proceedings.",
+      "Mentored student automotive teams for national SAE BAJA and formula student electric buggy competitions."
+    ]
+  }
+];
+

@@ -77,10 +77,17 @@ export default function Navbar({ onOpenSearch, onOpenAdmissions }) {
       image: '/images/fisat_idea_lab.jpg'
     },
     { 
+      name: 'Faculty & Leadership', 
+      href: '#leadership', 
+      desc: 'Chairman, Principal, Vice Principal & Research Mentors',
+      tag: '03',
+      image: '/images/fisat_campus_hero.jpg'
+    },
+    { 
       name: 'Campus Life', 
       href: '#campus-life', 
       desc: '26-acre green tech sanctuary in Mookkannoor',
-      tag: '03',
+      tag: '04',
       image: '/images/fisat_campus_hero.jpg'
     },
     { 
